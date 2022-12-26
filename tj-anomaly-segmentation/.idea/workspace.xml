@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a49be8a-365a-4390-aed1-025a5fbabf73" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmseg/apis/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1908">
+              <caret line="173" selection-start-line="173" selection-end-line="173" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmseg/models/segmentors/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1548">
+              <caret line="137" selection-start-line="137" selection-end-line="137" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmcv/parallel/data_parallel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="592">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmcv/runner/fp16_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1128">
+              <caret line="104" selection-start-line="104" selection-end-line="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/torch/nn/functional.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57924">
+              <caret line="4843" selection-start-line="4843" selection-end-line="4843" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/image-segmentation/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="530">
+              <caret line="167" selection-start-line="167" selection-end-line="167" />
+              <folding>
+                <element signature="e#1321#1398#0" />
+                <element signature="e#1818#1844#0" />
+                <element signature="e#2793#2897#0" />
+                <element signature="e#2950#3138#0" />
+                <element signature="e#3598#3668#0" />
+                <element signature="e#4081#4146#0" />
+                <element signature="e#4699#4875#0" />
+                <element signature="e#4711#4805#0" />
+                <element signature="e#5417#5477#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmcv/runner/iter_based_runner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/torch/nn/modules/module.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13080">
+              <caret line="1101" selection-start-line="1101" selection-end-line="1101" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmcv/parallel/scatter_gather.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image-segmentation/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1450">
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>narg</find>
+      <find>cudnn_benchmark</find>
+      <find>cudnn</find>
+      <find>cudnn_bench</find>
+      <find>Loaded 2975 images</find>
+      <find>self.test_mode</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/configs/segformer_mit-b0_512x512_160k_ade20k.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/envs_verification.py" />
+        <option value="$PROJECT_DIR$/image-segmentation/dist_train.sh" />
+        <option value="$PROJECT_DIR$/image-segmentation/dist_test.sh" />
+        <option value="G:/soft_ware/python/python37/Lib/site-packages/mmcv/utils/config.py" />
+        <option value="$PROJECT_DIR$/image-segmentation/segformer.b1.1024x1024.city.160k.py" />
+        <option value="$PROJECT_DIR$/image-segmentation/_base_/default_runtime.py" />
+        <option value="$PROJECT_DIR$/image-segmentation/_base_/models/segformer_mit-b0_8x1_1024x1024_160k_cityscapes.py" />
+        <option value="$PROJECT_DIR$/image-segmentation/_base_/models/segformer_mit-b0.py" />
+        <option value="$PROJECT_DIR$/image-segmentation/segformer.b5.1024x1024.city.160k.py" />
+        <option value="$PROJECT_DIR$/image-segmentation/_base_/models/segformer_mit-b5_8x1_1024x1024_160k_cityscapes.py" />
+        <option value="$PROJECT_DIR$/image-segmentation/segformer_mit-b5_8x1_1024x1024_160k_cityscapes.py" />
+        <option value="$PROJECT_DIR$/image-segmentation/segformer_mit-b0_8x1_1024x1024_160k_cityscapes.py" />
+        <option value="$PROJECT_DIR$/image-segmentation/_base_/datasets/cityscapes_1024x1024.py" />
+        <option value="$PROJECT_DIR$/image-segmentation/_base_/schedules/schedule_160k.py" />
+        <option value="$PROJECT_DIR$/image-segmentation/_base_/datasets/cityscapes_1024x1024_repeat.py" />
+        <option value="$PROJECT_DIR$/image-segmentation/_base_/datasets/cityscapes.py" />
+        <option value="$PROJECT_DIR$/image-segmentation/train.py" />
+        <option value="$PROJECT_DIR$/image-segmentation/data-preparation/cityscapes/createTrainIdLabelImgs.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="237" />
+    <option name="width" value="980" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tj-anomaly-segmentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tj-anomaly-segmentation" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/image-segmentation/work_dirs/segformer.b5.1024x1024.city.160k/segformer.b5.1024x1024.city.160k.py" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\tj-anomaly-segmentation\image-segmentation" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\tj-anomaly-segmentation\image-segmentation" />
+      <recent name="D:\works\python_related\tj-anomaly-segmentation\image-segmentation\_base_" />
+      <recent name="D:\works\python_related\tj-anomaly-segmentation\image-segmentation\_base_\schedules" />
+      <recent name="D:\works\python_related\tj-anomaly-segmentation\image-segmentation\_base_\datasets" />
+      <recent name="D:\works\python_related\tj-anomaly-segmentation\image-segmentation\_base_\models" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="createTrainIdLabelImgs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tj-anomaly-segmentation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/image-segmentation/data-preparation/cityscapes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image-segmentation/data-preparation/cityscapes/createTrainIdLabelImgs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="envs_verification" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="tj-anomaly-segmentation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="G:\soft_ware\python\python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/envs_verification.py" />
+      <option name="PARAMETERS" value="demo.jpg ./configs/segformer_mit-b0_512x512_160k_ade20k.py" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tj-anomaly-segmentation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/image-segmentation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image-segmentation/train.py" />
+      <option name="PARAMETERS" value="segformer_mit-b5_8x1_1024x1024_160k_cityscapes.py" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.envs_verification" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.createTrainIdLabelImgs" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.createTrainIdLabelImgs" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a49be8a-365a-4390-aed1-025a5fbabf73" name="Default Changelist" comment="" />
+      <created>1649256548102</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649256548102</updated>
+      <workItem from="1649256549284" duration="5535000" />
+      <workItem from="1649293468933" duration="1463000" />
+      <workItem from="1649432493222" duration="7729000" />
+      <workItem from="1649483424459" duration="2744000" />
+      <workItem from="1649497168190" duration="13401000" />
+      <workItem from="1649586426055" duration="598000" />
+      <workItem from="1649816369840" duration="18120000" />
+      <workItem from="1649908779026" duration="1877000" />
+      <workItem from="1650358124853" duration="1911000" />
+      <workItem from="1650423833491" duration="7408000" />
+      <workItem from="1650522056573" duration="9776000" />
+      <workItem from="1650545112979" duration="3071000" />
+      <workItem from="1650597444260" duration="24755000" />
+      <workItem from="1650773590942" duration="27458000" />
+      <workItem from="1651062363736" duration="3127000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="128973000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3632708" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32941177" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32941177" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1816354" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32941177" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32941177" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://G:/soft_ware/python/python37/Lib/site-packages/mmcv/parallel/data_parallel.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tj_anomaly_segmentation$test.coverage" NAME="test Coverage Results" MODIFIED="1650808412147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/image-segmentation" />
+    <SUITE FILE_PATH="coverage/open_lab_envs$test.coverage" NAME="test Coverage Results" MODIFIED="1649839767947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/open_lab_envs$envs_verification.coverage" NAME="envs_verification Coverage Results" MODIFIED="1649261151860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tj_anomaly_segmentation$createTrainIdLabelImgs.coverage" NAME="createTrainIdLabelImgs Coverage Results" MODIFIED="1650796088815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/image-segmentation/data-preparation/cityscapes" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://G:/soft_ware/python/python37/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-segmentation/segformer.b1.1024x1024.city.160k.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmcv/utils/path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-segmentation/segformer.b5.1024x1024.city.160k.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-segmentation/_base_/schedules/schedule_160k.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-segmentation/_base_/default_runtime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmseg/models/backbones/mit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="374" selection-start-line="374" selection-end-line="374" />
+          <folding>
+            <element signature="e#48#59#0" expanded="true" />
+            <element signature="e#596#3134#0" />
+            <element signature="e#3196#7885#0" />
+            <element signature="e#7935#10615#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-segmentation/work_dirs/segformer_mit-b5_8x1_1024x1024_160k_cityscapes/20220424_121420.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17110">
+          <caret line="1552" column="50" selection-start-line="1550" selection-start-column="45" selection-end-line="1552" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmseg/models/segmentors/encoder_decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmseg/models/builder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-segmentation/_base_/datasets/cityscapes_1024x1024_repeat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmseg/datasets/dataset_wrappers.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmcv/cnn/builder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/addict/addict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-segmentation/work_dirs/segformer_mit-b5_8x1_1024x1024_160k_cityscapes/20220424_165716.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="1586" column="59" lean-forward="true" selection-start-line="1586" selection-start-column="59" selection-end-line="1586" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-segmentation/work_dirs/segformer_mit-b5_8x1_1024x1024_160k_cityscapes/20220422_195904.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2314" />
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmcv/runner/dist_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/torch/distributed/distributed_c10d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="800" column="4" selection-start-line="800" selection-start-column="4" selection-end-line="800" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-segmentation/data-preparation/cityscapes/createTrainIdLabelImgs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmseg/datasets/pipelines/loading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/torch/utils/data/sampler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="224" selection-start-line="224" selection-end-line="224" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/torch/utils/data/dataloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="297" selection-start-line="297" selection-end-line="297" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/torch/optim/adamw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmcv/runner/default_constructor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmcv/runner/builder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmcv/runner/base_runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="543" selection-start-line="543" selection-end-line="543" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmcv/runner/optimizer/builder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-segmentation/segformer_mit-b5_8x1_1024x1024_160k_cityscapes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-segmentation/segformer_mit-b0_8x1_1024x1024_160k_cityscapes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmcv/runner/optimizer/default_constructor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="249" selection-start-line="249" selection-end-line="249" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-segmentation/_base_/models/segformer_mit-b0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-segmentation/_base_/datasets/cityscapes_1024x1024.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-segmentation/_base_/datasets/cityscapes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="10" column="64" lean-forward="true" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmseg/datasets/pipelines/compose.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmseg/datasets/cityscapes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmseg/datasets/builder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmseg/datasets/custom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmcv/utils/registry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#48#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="806" selection-start-line="806" selection-end-line="806" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmcv/utils/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="509" selection-start-line="509" selection-end-line="509" />
+          <folding>
+            <element signature="e#48#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-segmentation/work_dirs/segformer_mit-b5_8x1_1024x1024_160k_cityscapes/20220424_210541.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmseg/apis/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1908">
+          <caret line="173" selection-start-line="173" selection-end-line="173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmseg/models/segmentors/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1548">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmcv/runner/fp16_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1128">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/torch/nn/functional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57924">
+          <caret line="4843" selection-start-line="4843" selection-end-line="4843" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmcv/runner/iter_based_runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/torch/nn/modules/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13080">
+          <caret line="1101" selection-start-line="1101" selection-end-line="1101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmcv/parallel/scatter_gather.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/soft_ware/python/python37/Lib/site-packages/mmcv/parallel/data_parallel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-segmentation/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1450">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-segmentation/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="167" selection-start-line="167" selection-end-line="167" />
+          <folding>
+            <element signature="e#1321#1398#0" />
+            <element signature="e#1818#1844#0" />
+            <element signature="e#2793#2897#0" />
+            <element signature="e#2950#3138#0" />
+            <element signature="e#3598#3668#0" />
+            <element signature="e#4081#4146#0" />
+            <element signature="e#4699#4875#0" />
+            <element signature="e#4711#4805#0" />
+            <element signature="e#5417#5477#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

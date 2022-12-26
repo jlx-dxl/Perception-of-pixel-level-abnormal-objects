@@ -1,0 +1,41 @@
+# Name of the experiment for saving files
+experiment_name: baseline_void_prior_spadedecoder_mult_3 # where checkpoints are stored
+save_folder: /root/autodl-tmp/pretrain/models/image-dissimilarity/ # where checkpoints are stored
+which_epoch: best
+store_results: /root/autodl-tmp/data_dis/preprocess/1/prediction_results
+visualize: True
+ensemble: True #plus the output with entropy with weights
+
+# model options
+model:
+  architecture: vgg16 #[options: 'vgg16', 'vgg16_bn', 'vgg16_guided', 'resnet18', 'vgg16_correlated']
+  semantic: True
+  pretrained: True
+  correlation: True
+  prior: True
+  spade: 'decoder' #[options: 'encoder', 'decoder', 'both', '']
+  num_semantic_classes: 19 # Actual training labels
+
+# parameters for dataset
+dataset:
+  num_classes: 19 # Actual training labels
+
+# parameters for dataloaders
+test_dataloader:
+  dataset_args:
+    dataroot: /root/autodl-tmp/data_dis/preprocess/1
+    preprocess_mode: none
+    crop_size: 512 #it desides the input size of image
+    aspect_ratio: 2
+    flip: False
+    normalize: True
+    light_data: False #light_data means only use synthesis_spade
+    roi: True # if true , then the ignore_label,which equals 255, will disappear in the final metrics,such as auc
+              # in the train process, you don't have to set this to true because the loss function can set ignore label
+    void: False # when class_weight_cityscape is set, if void is true, then anormaly of cityscapes exclude ego vehicle
+    num_semantic_classes: 19
+    is_train: False
+  dataloader_args:
+    batch_size: 1
+    num_workers: 1
+    shuffle: False

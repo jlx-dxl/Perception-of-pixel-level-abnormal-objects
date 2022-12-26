@@ -1,0 +1,95 @@
+model:
+  base_learning_rate: 4.5e-06
+  target: taming.models.cond_transformer.Net2NetTransformer
+  params:
+    first_stage_key: image
+    cond_stage_key: segmentation
+    transformer_config:
+      target: taming.modules.transformer.mingpt.GPT
+      params:
+        vocab_size: 8192
+        block_size: 512
+        n_layer: 24
+        n_head: 16
+        n_embd: 1024
+    first_stage_config:
+      target: taming.models.vqgan.VQModel
+      params:
+#        ckpt_path: /root/autodl-tmp/synthesis/logs/2022-05-04T13-37-50_cityscapes_vqgan_pre_coco_300epoch/checkpoints/last.ckpt
+        embed_dim: 256   #changed
+        n_embed: 8192
+        ddconfig:
+          double_z: false
+          z_channels: 256 #changed
+          resolution: 256 #changed
+          in_channels: 3
+          out_ch: 3
+          ch: 128
+          ch_mult:
+          - 1
+          - 1
+          - 2
+          - 2
+          - 4
+          num_res_blocks: 2
+          attn_resolutions:
+          - 16
+          dropout: 0.0
+        lossconfig:
+          target: taming.modules.losses.DummyLoss
+#    cond_stage_config:
+#      target: taming.models.dummy_cond_stage.DummyCondStage
+#      params:
+#        conditional_key: segmentation
+    cond_stage_config:
+      target: taming.models.vqgan.VQModel
+      params:
+        ckpt_path: /root/autodl-tmp/synthesis/logs/2022-05-04T00-56-37_cityscapes_cond_vqgan_ebd256/checkpoints/last.ckpt
+        embed_dim: 256 #changed
+        n_embed: 1024
+        image_key: segmentation
+        ddconfig:
+          double_z: false
+          z_channels: 256 #changed
+          resolution: 256 #changed
+          in_channels: 34
+          out_ch: 34
+          ch: 128
+          ch_mult:
+          - 1
+          - 1
+          - 2
+          - 2
+          - 4
+          num_res_blocks: 2
+          attn_resolutions:
+          - 16
+          dropout: 0.0
+        lossconfig:
+          target: taming.modules.losses.DummyLoss
+data:
+  target: main.DataModuleFromConfig
+  params:
+    batch_size: 8
+    num_workers: 4
+#    train:
+#      target: taming.data.cityscapes_sample.Examples
+#      params:
+#        size: 256
+#        random_crop: False
+#        data_root: "/root/autodl-tmp/data_dis/preprocess/1/temp/leftImg8bit/val"
+#        segmentation_root: "/root/autodl-tmp/data_dis/preprocess/1/temp/gtFine/val"
+#    validation:
+#      target: taming.data.cityscapes_sample.Examples
+#      params:
+#        size: 256
+#        random_crop: False
+#        data_root: "/root/autodl-tmp/data_dis/preprocess/1/temp/leftImg8bit/val"
+#        segmentation_root: "/root/autodl-tmp/data_dis/preprocess/1/temp/gtFine/val"
+    test:
+      target: taming.data.cityscapes_sample.Examples
+      params:
+        size: 256
+        random_crop: True
+        data_root: "/root/autodl-tmp/cityscapes_segformer/leftImg8bit/val"
+        segmentation_root: "/root/autodl-tmp/cityscapes_segformer/gtFine/val"
